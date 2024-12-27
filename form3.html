@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHOC-O-LAT</title>
+<link rel="icon" type="image/x-icon" href="img/logo.png">
+<style>
+   
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .sidenav a, .menu-bar-btn {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #b15b22;
+            display: block;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left; 
+            cursor: pointer;
+            outline: none;
+        }
+
+       
+        .menu-bar {
+            position: absolute; 
+            top: 200px;        
+            right: 10px;      
+            display: inline-block;
+        }
+
+      
+        .menu-bar-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .menu-bar-content a {
+            color: rgb(14, 2, 2);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+       
+        .menu-bar:hover .menu-bar-content {
+            display: block;
+        }
+
+       
+        .menu-bar-btn {
+            background-color: #b15b22;
+            color: white;
+            padding: 40px;
+            font-size: 30px;
+            border: none;
+            cursor: pointer;
+        }
+
+       
+        h1 {
+            margin: 150px 0px; 
+            font-size: 4.5em; 
+            color: #be550a; 
+
+        }
+        .logo {
+            position: absolute; 
+            top: 10px;         
+            left: 10px;       
+        }
+
+        .logo img {
+            width: 350px; 
+            height: auto;
+        }
+
+       
+        .age {
+            position: absolute; 
+            top: 50px;         
+            right: 10px;       
+        }
+
+        .age img {
+            width: 200px;
+            height: auto; 
+        }
+
+
+.welcome-message {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 18px;
+    color: #d65b13;
+    font-weight: bold;
+}
+
+        .container {
+
+            display: flex; /* Use flexbox layout */
+
+            justify-content: space-between; /* Space forms to left and right */
+
+            padding: 20px;
+
+        }
+
+        form {
+
+            width: 45%; /* Adjust the width of each form */
+
+            padding: 20px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+            background-color: #f9f9f9;
+
+        }
+
+        h1 {
+
+            text-align: center;
+
+        }
+        body  {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/005/500/861/non_2x/dark-chocolate-background-free-vector.jpg");
+  background-color: #cccccc;
+}
+</style>
+</head>
+<body>
+    <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="logo" />
+    </a>
+    <div
+         class="age">
+        <a href="homepage3.html">
+            <img src="img/age.jpg" alt="age" />
+        </a>
+    
+       
+    </div>
+    <div class="menu-bar">
+        <button class="menu-bar-btn">Menu Bar</button>
+        <div class="menu-bar-content">
+            <a href="HOME.html">Home</a>
+            <a href="INGREDIENTS.html">Ingredients</a>
+            <a href="usman2.html">Types of Chocolate</a>
+            <a href="PRICES.html">Prices</a>
+            <a href="TERMS AND CONDITIONS.html">Terms and Conditions</a>
+            <a href="jasmine.html">Accessibility</a> 
+        </div>
+    </div>
+<div class="welcome-message">
+    <p>Hey there! Thanks for joining. We’re thrilled to have you.</p>
+</div>
+<h1><bold>FORM HUB</bold></h1>
+<div class="container">
+<!-- Form 1 -->
+<form action="form1_submitted.html" method="post">
+<h2>Form 1: FEEDBACK</h2>
+<label for="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname" placeholder="Enter your first name"><br><br>
+<label for="lname"> Give Feedback:</label><br>
+<input type="text" id="lname" name="lname" placeholder="Enter your feedback"><br><br>
+<a href="submitted.html" style="
+   display: inline-block;
+   padding: 8px 16px;
+   background-color: #040d10;
+   color: white;
+   text-decoration: none;
+   border-radius: 4px;
+   font-family: Arial, sans-serif;
+">
+ Submit
+</a>
+</form>
+<!-- Form 2 -->
+<form action="form2_submitted.html" method="post">
+<h2>Form 2: SUBSCRIBING </h2>
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" placeholder="Enter your email for subscribing"> <br><br>
+
+<a href="subscribes.html" style="
+   display: inline-block;
+   padding: 8px 16px;
+   background-color: #121414;
+   color: white;
+   text-decoration: none;
+   border-radius: 4px;
+   font-family: Arial, sans-serif;
+">
+ SUBSCRIBED
+</a>
+</form>
+</div>
+</body>
+</html> 
